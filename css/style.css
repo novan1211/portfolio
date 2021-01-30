@@ -17,6 +17,10 @@ body{
     font-family: Righteous;
 }
 
+.nav-link:hover {
+    color: #ffc061 !important;
+}
+
 .nav-link:hover::after{
     content: '';
     display: block;
