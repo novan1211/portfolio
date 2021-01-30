@@ -1,0 +1,100 @@
+/* Navbar */
+body{
+    background-color: #1F1D28;
+}
+
+.jumbotron{
+    background-color: #1F1D28;
+}
+.navbar{
+    background-color: #1F1D28;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 14px;
+    font-family: Righteous;
+}
+
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid #ffc061;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -7px;
+}
+
+
+/* Jumbotron */
+#variasi {
+    position: absolute;
+    margin-bottom: 100px;
+}
+
+#hello {
+    font-family: Raleway;
+    color: #ffc061;
+    font-size: 40px;
+}
+
+#nopi {
+    font-family: Paytone One;
+    font-size: 70px;
+    color: bisque;
+    margin-top: -10px;
+}
+
+#jpn {
+    font-family: Noto Serif JP;
+    color: bisque;
+    padding-top: 30px;
+}
+
+.col-7 {
+    margin-top: -40px;
+}
+
+.col-5 {
+    margin-top: 40px;
+}
+
+.btn-link {
+    border: none;
+    color: cornsilk;
+    font-size: 40px;
+    margin-right: -13px;
+}
+
+.fa-envelope {
+    margin-right: 5px;
+}
+
+.btn-outline-primary {
+    border: none;
+    color: bisque;
+}
+
+.fa-download {
+    margin-right: 5px;
+}
+
+/* Skill & Tools*/
+h2 {
+    color:#ffc061;
+    text-shadow: 0px 0px 20px #A259FF;
+    margin-top: 55px ;
+    font-size: 40px;
+}
+.tools {
+    color:#1F1D28;
+    font-size: 117px;
+    text-transform: uppercase;
+    font-family: Paytone One;
+    -webkit-text-stroke: 1px white;
+    position: absolute;
+    opacity: 0.05;
+
+}
