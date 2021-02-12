@@ -91,7 +91,7 @@ body {
 #tool {
     color: #ffc061;
     text-shadow: 0px 0px 20px #A259FF;
-    margin-top: 55px;
+    margin-top: 50px;
     font-size: 45px;
 }
 
@@ -127,9 +127,14 @@ h4 {
 
 /*Education*/
 
+#education {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
 #educa {
     color: #1F1D28;
-    font-size: 175px;
+    font-size: 170px;
     text-transform: uppercase;
     font-family: Paytone One;
     -webkit-text-stroke: 1px white;
@@ -153,4 +158,166 @@ h4 {
     color: aliceblue;
     padding-top: -10px;
     font-size: small;
+}
+
+/*experience*/
+
+
+
+#suzuki {
+    position: relative;
+    margin-bottom: -50px;
+}
+
+.cards {
+    position: relative;
+    padding-top: 30px;
+    z-index: -1;
+    height: 380px;
+    box-shadow: 0px 0px 10px #A259FF;
+}
+
+#expe {
+    color: #1F1D28;
+    font-size: 180px;
+    text-transform: uppercase;
+    font-family: Paytone One;
+    -webkit-text-stroke: 1px white;
+    position: absolute;
+    opacity: 0.05;
+}
+
+/*Portfolio*/
+
+
+
+#porto {
+    color: #1F1D28;
+    font-size: 192px;
+    text-transform: uppercase;
+    font-family: Paytone One;
+    -webkit-text-stroke: 1px white;
+    position: absolute;
+    opacity: 0.05;
+}
+
+#port {
+    color: #ffc061;
+    text-shadow: 0px 0px 20px #A259FF;
+    margin-top: 100px;
+    font-size: 45px;
+}
+
+.cardbox {
+    margin-top: 30px;
+    height: 400px;
+}
+
+.d-block {
+    width: 400px;
+    height: 400px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Muli:400,700&display=swap");
+
+
+
+.gambar {
+    width: 250px;
+    height: 220px;
+
+}
+
+/* .container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
+} */
+
+.items {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    animation: carouselAnim 50s infinite alternate linear;
+}
+
+.entry {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    background: #fff;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 768px) {
+    .items {
+        animation: carouselAnim 35s infinite alternate linear;
+    }
+
+    @keyframes carouselAnim {
+        from {
+            transform: translate(0, 0);
+        }
+
+        to {
+            transform: translate(calc(-100% + (2 * 300px)));
+        }
+    }
+}
+
+.entry p {
+    text-align: center;
+    padding: 1em;
+}
+
+.name {
+    font-weight: bold;
+}
+
+@keyframes carouselAnim {
+    from {
+        transform: translate(0, 0);
+    }
+
+    to {
+        transform: translate(calc(-100% + (5 * 300px)));
+    }
+}
+
+.faders {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+.faders .right,
+.faders .left {
+    background: linear-gradient(to right,
+            rgba(245, 245, 245, 1) 0%,
+            rgba(255, 255, 255, 0) 100%);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 200;
+}
+
+.right {
+    right: 0;
+    background: linear-gradient(to left,
+            rgba(245, 245, 245, 1) 0%,
+            rgba(255, 255, 255, 0) 100%);
+}
+
+.wraper {
+
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 50px;
 }
