@@ -1,12 +1,13 @@
 /* Navbar */
-body{
+body {
     background-color: #1F1D28;
 }
 
-.jumbotron{
+.jumbotron {
     background-color: #1F1D28;
 }
-.navbar{
+
+.navbar {
     background-color: #1F1D28;
 }
 
@@ -21,7 +22,7 @@ body{
     color: #ffc061 !important;
 }
 
-.nav-link:hover::after{
+.nav-link:hover::after {
     content: '';
     display: block;
     border-bottom: 2px solid #ffc061;
@@ -47,7 +48,7 @@ body{
 #nopi {
     font-family: Paytone One;
     font-size: 70px;
-    color:aliceblue;
+    color: aliceblue;
     margin-top: -10px;
 }
 
@@ -64,7 +65,7 @@ body{
 
 .btn-link {
     border: none;
-    color: cornsilk;
+    color: aliceblue;
     font-size: 40px;
     margin-right: -13px;
 }
@@ -75,7 +76,7 @@ body{
 
 .btn-outline-primary {
     border: none;
-    color: bisque;
+    color: aliceblue;
 }
 
 .fa-download {
@@ -83,21 +84,25 @@ body{
 }
 
 /* Skill & Tools*/
-h2 {
-    color:#ffc061;
-    text-shadow: 0px 0px 20px #A259FF;
-    margin-top: 55px ;
-    font-size: 40px;
+#skills {
+    margin-top: -30px;
 }
+
+#tool {
+    color: #ffc061;
+    text-shadow: 0px 0px 20px #A259FF;
+    margin-top: 55px;
+    font-size: 45px;
+}
+
 .tools {
-    color:#1F1D28;
+    color: #1F1D28;
     font-size: 117px;
     text-transform: uppercase;
     font-family: Paytone One;
     -webkit-text-stroke: 1px white;
     position: absolute;
     opacity: 0.05;
-
 }
 
 h4 {
@@ -110,10 +115,42 @@ h4 {
 
 .progress-bar {
     background-color: #ffc061;
+    width: 0;
 }
 
 .icon {
     margin-bottom: -10px;
     color: aliceblue;
     padding-top: 15px;
+}
+
+
+/*Education*/
+
+#educa {
+    color: #1F1D28;
+    font-size: 175px;
+    text-transform: uppercase;
+    font-family: Paytone One;
+    -webkit-text-stroke: 1px white;
+    position: absolute;
+    opacity: 0.05;
+
+}
+
+#edu {
+    color: #ffc061;
+    text-shadow: 0px 0px 20px #A259FF;
+    margin-top: 90px;
+    font-size: 45px;
+}
+
+.card-title {
+    color: aliceblue;
+}
+
+.card-text {
+    color: aliceblue;
+    padding-top: -10px;
+    font-size: small;
 }
