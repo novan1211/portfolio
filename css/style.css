@@ -321,3 +321,32 @@ h4 {
     position: relative;
     margin-top: 50px;
 }
+
+/* Contact */
+
+.contact {
+    margin-top: 70px;
+    font-family: Raleway;
+}
+
+#alamat {
+    color: grey;
+}
+
+#email {
+    color: aliceblue;
+}
+
+footer {
+    border-top-style: solid;
+    border-top-color: rgb(49, 49, 49);
+    text-align: center;
+    padding: 5px;
+    background-color: #1F1D28;
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+#creat {
+    padding-top: 10px;
+}
